@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Wisata Maps",
+    "slug": "Wisata-Maps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rm.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC6GzKJ8kO54F8-BIzuPwd8gNuK3nSq7AU"
+        }
+      },
+      "package": "com.wisata.maps"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
